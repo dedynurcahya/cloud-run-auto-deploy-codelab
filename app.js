@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Route utama
 app.get("/", (req, res) => {
-  res.send("Cloud Run berhasil jalan 🚀");
+  res.send("Cloud Run AUTO DEPLOY BERHASIL 🚀🔥");
 });
 
 // Port Cloud Run (WAJIB pakai process.env.PORT)
