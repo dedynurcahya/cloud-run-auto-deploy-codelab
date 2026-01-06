@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Route utama
 app.get("/", (req, res) => {
-  res.send("Auto deploy dari GitHub berhasil ✅");
+  res.send("Auto deploy dari GitHub berhasil Dicoba✅");
 });
 
 // Port Cloud Run (WAJIB pakai process.env.PORT)
